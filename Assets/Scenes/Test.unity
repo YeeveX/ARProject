@@ -832,6 +832,7 @@ GameObject:
   - component: {fileID: 1032204190}
   - component: {fileID: 1032204189}
   - component: {fileID: 1032204191}
+  - component: {fileID: 1032204192}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -889,7 +890,23 @@ MonoBehaviour:
       m_Calls: []
   m_SerializedLibrary: {fileID: 11400000, guid: 6e7f107762b384d47abf92f092676715, type: 2}
   m_MaxNumberOfMovingImages: 1
-  m_TrackedImagePrefab: {fileID: 1305620740910529063, guid: bdb4a351796d02d48a76b94d79d1a56a, type: 3}
+  m_TrackedImagePrefab: {fileID: 0}
+--- !u!114 &1032204192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032204188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf8d6e0a3944118478a1f7f4d12aacb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _imageManager: {fileID: 1032204191}
+  _imageModelAssoc:
+  - Name: prometeus
+    ModelPrefab: {fileID: 2216644595672838448, guid: bdb4a351796d02d48a76b94d79d1a56a, type: 3}
 --- !u!1 &1175214670
 GameObject:
   m_ObjectHideFlags: 0
