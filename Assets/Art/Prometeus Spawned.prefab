@@ -108,4 +108,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbeb1db13a6f8c446a1d84455f64dfa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _modelOffset: {x: -0.8, y: 0.8}
+  _modelOffset: {x: 0, y: 0}
