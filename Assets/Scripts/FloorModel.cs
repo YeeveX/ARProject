@@ -8,6 +8,7 @@ public class FloorModel : MonoBehaviour
 	List<MeshRenderer> _renderers;
 
 	[SerializeField] Vector2 _modelOffset;
+	[SerializeField] Dialog _dialog;
 
 	bool _spawned = false;
 	Vector3 _fixedPosition;
@@ -16,10 +17,12 @@ public class FloorModel : MonoBehaviour
 	{
 		_floorSpawner = FindAnyObjectByType<SpawnModelOnFloor>();
 		_renderers = GetComponentsInChildren<MeshRenderer>(true).ToList();
-		foreach (var _renderer in _renderers)
-		{
-			_renderer.enabled = false; // Initially disable all renderers
-		}
+		ToggleRenderers(false);
+	}
+
+	public void Init(StatueTextSO textSO)
+	{
+		_dialog.Init(textSO);
 	}
 
 	private void Start()
@@ -27,11 +30,25 @@ public class FloorModel : MonoBehaviour
 		Debug.Log($"FloorModel started, waiting for updates. Pos: {transform.position}");
 	}
 
+	void ToggleRenderers(bool enable)
+	{
+		foreach (var _renderer in _renderers)
+		{
+			_renderer.enabled = enable;
+		}
+	}
+
+	void UpdatePositionAndRotation()
+	{
+		transform.SetPositionAndRotation(_fixedPosition, Quaternion.Euler(0, 0, 0));
+		_dialog.LookAt(Camera.main.transform.position);
+	}
+
 	private void Update()
 	{
 		if (_spawned)
 		{
-			transform.SetPositionAndRotation(_fixedPosition, Quaternion.Euler(0, 0, 0));
+			UpdatePositionAndRotation();
 			return;
 		}
 
@@ -39,19 +56,14 @@ public class FloorModel : MonoBehaviour
 		if (pointFound)
 		{
 			_spawned = true;
-			foreach (var _renderer in _renderers)
-			{
-				_renderer.enabled = true;
-			}
+			ToggleRenderers(true);
 			_fixedPosition = res;
+			UpdatePositionAndRotation();
 			Debug.Log($"FloorModel position updated to: {transform.position}");
 		}
 		else
 		{
-			foreach (var _renderer in _renderers)
-			{
-				_renderer.enabled = false;
-			}
+			ToggleRenderers(false);
 			Debug.Log("FloorModel position not updated, point not found on any plane.");
 		}
 	}

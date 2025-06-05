@@ -11,6 +11,7 @@ public class MuseumImageTracker : MonoBehaviour
 	{
 		public string Name;
 		public FloorModel ModelPrefab;
+		public StatueTextSO TextSO;
 	}
 
 	[SerializeField] ARTrackedImageManager _imageManager;
@@ -31,6 +32,7 @@ public class MuseumImageTracker : MonoBehaviour
 			{
 				var modelInstance = Instantiate(model.ModelPrefab, trackedImage.transform.position, Quaternion.identity);
 				modelInstance.transform.SetParent(trackedImage.transform, true);
+				modelInstance.Init(model.TextSO);
 				Debug.Log($"Spawned model: {model.ModelPrefab.name} for image: {trackedImage.referenceImage.name}");
 			}
 			else

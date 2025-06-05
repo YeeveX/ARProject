@@ -907,6 +907,7 @@ MonoBehaviour:
   _imageModelAssoc:
   - Name: prometeus
     ModelPrefab: {fileID: 2216644595672838448, guid: bdb4a351796d02d48a76b94d79d1a56a, type: 3}
+    TextSO: {fileID: 11400000, guid: 28bf01b732941744bafcdcea073da777, type: 2}
 --- !u!1 &1175214670
 GameObject:
   m_ObjectHideFlags: 0
