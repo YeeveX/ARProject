@@ -98,7 +98,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2bd5079836f0bf84e8610b2f479c4d7e, type: 3}
       propertyPath: m_Name
-      value: Prometeus Spawned
+      value: Prometeus Prefab
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2bd5079836f0bf84e8610b2f479c4d7e, type: 3}
       propertyPath: m_IsActive
