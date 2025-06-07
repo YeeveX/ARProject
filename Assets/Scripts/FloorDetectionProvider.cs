@@ -18,7 +18,7 @@ public class SpawnModelOnFloor : MonoBehaviour
 				  //trackablesChanged.removed.Count + " planes removed.");
     }
 
-	public bool FloorFoundAtCoords(Vector2 worldCoordsPoint, out Vector3 worldOutputPoint)
+	public bool TryFloorAtCoords(Vector2 worldCoordsPoint, out Vector3 worldOutputPoint)
 	{
 		foreach (var plane in _planeManager.trackables)
 		{

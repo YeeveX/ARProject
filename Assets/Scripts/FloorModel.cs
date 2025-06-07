@@ -59,7 +59,7 @@ public class FloorModel : MonoBehaviour
 		var finalWorldPosition = new Vector3(transform.position.x, 0, transform.position.z) + localOffsetVector;
 
 		//looks for the point on the floor at the desired position
-		var pointFound = _floorSpawner.FloorFoundAtCoords(new Vector2(finalWorldPosition.x, finalWorldPosition.z), out var res);
+		var pointFound = _floorSpawner.TryFloorAtCoords(new Vector2(finalWorldPosition.x, finalWorldPosition.z), out var res);
 		if (pointFound)
 		{
 			_spawned = true;

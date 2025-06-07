@@ -35,7 +35,10 @@ public class Dialog : MonoBehaviour
     public bool IsSeen()
     {
         var screenPt = Camera.main.WorldToScreenPoint(transform.position);
-        return screenPt.x > 0 && screenPt.y > 0 && screenPt.x < Screen.width && screenPt.y < Screen.height;
+        var quarterW = Screen.width / 4;
+		var quarterH = Screen.height / 4;
+
+		return screenPt.x > quarterW && screenPt.y > quarterH && screenPt.x < Screen.width-quarterW && screenPt.y < Screen.height-quarterH;
     }
 
     void WriteToDialog()
