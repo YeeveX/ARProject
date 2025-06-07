@@ -18,12 +18,82 @@ MonoBehaviour:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 4965377667121843034
-      m_GuidHigh: 8279922868928982677
+      m_GuidLow: 4999637872142523758
+      m_GuidHigh: 11252550233392233881
     m_SerializedTextureGuid:
-      m_GuidLow: 16601607006140713498
-      m_GuidHigh: 4811080956174021179
+      m_GuidLow: 9515477731751940722
+      m_GuidHigh: 16525692813510108584
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: prometeus
+    m_Name: 1_PrometheusCreatesHuman
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5473887027201651572
+      m_GuidHigh: 11871854015317579179
+    m_SerializedTextureGuid:
+      m_GuidLow: 9578013216459195955
+      m_GuidHigh: 9938282534187155066
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 2_PrometheusDeceit
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5132093464706982078
+      m_GuidHigh: 379538503489078919
+    m_SerializedTextureGuid:
+      m_GuidLow: 11855412800519741294
+      m_GuidHigh: 1529106935912446298
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 3_PrometheusStealFire
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5694896253340182764
+      m_GuidHigh: 15120485783667264915
+    m_SerializedTextureGuid:
+      m_GuidLow: 14168624612490520538
+      m_GuidHigh: 2226769268828099257
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 4_FireOfPrometheus
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5484423716948814252
+      m_GuidHigh: 320601552628410034
+    m_SerializedTextureGuid:
+      m_GuidLow: 17596319742294037606
+      m_GuidHigh: 9782135749921025688
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 5_PandoraCreation
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5245070775776104000
+      m_GuidHigh: 8543256246919844236
+    m_SerializedTextureGuid:
+      m_GuidLow: 2637334380750741671
+      m_GuidHigh: 16075987964992766890
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 6_PrometheusChained
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4709689930706857858
+      m_GuidHigh: 18410969980896019108
+    m_SerializedTextureGuid:
+      m_GuidLow: 2609985162029748388
+      m_GuidHigh: 10817828750373176904
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 7_PrometheusPunishment
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5000752680126208996
+      m_GuidHigh: 3207065709516938937
+    m_SerializedTextureGuid:
+      m_GuidLow: 15339401049778369312
+      m_GuidHigh: 3660123950127788729
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 8_PrometheusFree
     m_Texture: {fileID: 0}
