@@ -32,7 +32,7 @@ public class MuseumImageTracker : MonoBehaviour
 			{
 				var modelInstance = Instantiate(model.ModelPrefab, trackedImage.transform.position, Quaternion.identity);
 				modelInstance.transform.SetParent(trackedImage.transform, true);
-				modelInstance.Init(model.TextSO);
+				modelInstance.Init(model.TextSO, trackedImage.transform.eulerAngles.y);
 				Debug.Log($"Spawned model: {model.ModelPrefab.name} for image: {trackedImage.referenceImage.name}");
 			}
 			else

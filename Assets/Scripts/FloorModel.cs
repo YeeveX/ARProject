@@ -12,6 +12,7 @@ public class FloorModel : MonoBehaviour
 
 	bool _spawned = false;
 	Vector3 _fixedPosition;
+	Quaternion _fixedRotation;
 
 	private void Awake()
 	{
@@ -20,14 +21,15 @@ public class FloorModel : MonoBehaviour
 		ToggleRenderers(false);
 	}
 
-	public void Init(StatueTextSO textSO)
+	public void Init(StatueTextSO textSO, float yRot)
 	{
 		_dialog.Init(textSO);
+		_fixedRotation = Quaternion.Euler(0, yRot, 0);
 	}
 
 	private void Start()
 	{
-		Debug.Log($"FloorModel started, waiting for updates. Pos: {transform.position}");
+		Debug.Log($"FloorModel started, waiting for updates. Pos: {transform.position}, rot: {transform.eulerAngles}");
 	}
 
 	void ToggleRenderers(bool enable)
@@ -36,11 +38,12 @@ public class FloorModel : MonoBehaviour
 		{
 			_renderer.enabled = enable;
 		}
+		_dialog.gameObject.SetActive(enable);
 	}
 
 	void UpdatePositionAndRotation()
 	{
-		transform.SetPositionAndRotation(_fixedPosition, Quaternion.Euler(0, 0, 0));
+		transform.SetPositionAndRotation(_fixedPosition, _fixedRotation);
 		_dialog.LookAt(Camera.main.transform.position);
 	}
 

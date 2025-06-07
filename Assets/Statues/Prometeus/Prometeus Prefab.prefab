@@ -112,7 +112,7 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2bd5079836f0bf84e8610b2f479c4d7e, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1005300604362728035}
+      addedObject: {fileID: 5191279018683456825}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2bd5079836f0bf84e8610b2f479c4d7e, type: 3}
       insertIndex: -1
@@ -136,13 +136,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _modelOffset: {x: 0, y: 0}
-  _dialog: {fileID: 3377445012416489785}
+  _dialog: {fileID: 7721336940278683235}
 --- !u!4 &1825558230737805469 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2bd5079836f0bf84e8610b2f479c4d7e, type: 3}
   m_PrefabInstance: {fileID: 2224521980811904886}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &7093723027604780603
+--- !u!1001 &2848910304395544929
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -153,6 +153,10 @@ PrefabInstance:
     - target: {fileID: 4528768512048279308, guid: e06c12af80194154a876553f0d450398, type: 3}
       propertyPath: m_Name
       value: Dialog
+      objectReference: {fileID: 0}
+    - target: {fileID: 6158549411263075186, guid: e06c12af80194154a876553f0d450398, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8035121096244237400, guid: e06c12af80194154a876553f0d450398, type: 3}
       propertyPath: m_Pivot.x
@@ -180,23 +184,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8035121096244237400, guid: e06c12af80194154a876553f0d450398, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8035121096244237400, guid: e06c12af80194154a876553f0d450398, type: 3}
       propertyPath: m_SizeDelta.y
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8035121096244237400, guid: e06c12af80194154a876553f0d450398, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8035121096244237400, guid: e06c12af80194154a876553f0d450398, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8035121096244237400, guid: e06c12af80194154a876553f0d450398, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8035121096244237400, guid: e06c12af80194154a876553f0d450398, type: 3}
       propertyPath: m_LocalPosition.x
@@ -232,7 +224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8035121096244237400, guid: e06c12af80194154a876553f0d450398, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.202
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 8035121096244237400, guid: e06c12af80194154a876553f0d450398, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -246,24 +238,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8035121096244237400, guid: e06c12af80194154a876553f0d450398, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e06c12af80194154a876553f0d450398, type: 3}
---- !u!224 &1005300604362728035 stripped
+--- !u!224 &5191279018683456825 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8035121096244237400, guid: e06c12af80194154a876553f0d450398, type: 3}
-  m_PrefabInstance: {fileID: 7093723027604780603}
+  m_PrefabInstance: {fileID: 2848910304395544929}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3377445012416489785 stripped
+--- !u!114 &7721336940278683235 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5525617513722535682, guid: e06c12af80194154a876553f0d450398, type: 3}
-  m_PrefabInstance: {fileID: 7093723027604780603}
+  m_PrefabInstance: {fileID: 2848910304395544929}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
