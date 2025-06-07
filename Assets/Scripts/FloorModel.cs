@@ -55,7 +55,11 @@ public class FloorModel : MonoBehaviour
 			return;
 		}
 
-		var pointFound = _floorSpawner.FloorFoundAtCoords(new Vector2(transform.position.x + _modelOffset.x, transform.position.z + _modelOffset.y), out var res);
+		var localOffsetVector = _fixedRotation * new Vector3(_modelOffset.x, 0, _modelOffset.y);
+		var finalWorldPosition = new Vector3(transform.position.x, 0, transform.position.z) + localOffsetVector;
+
+		//looks for the point on the floor at the desired position
+		var pointFound = _floorSpawner.FloorFoundAtCoords(new Vector2(finalWorldPosition.x, finalWorldPosition.z), out var res);
 		if (pointFound)
 		{
 			_spawned = true;

@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbeb1db13a6f8c446a1d84455f64dfa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _modelOffset: {x: 0, y: 0}
+  _modelOffset: {x: -0.85, y: 0}
   _dialog: {fileID: 7721336940278683235}
 --- !u!4 &1825558230737805469 stripped
 Transform:

@@ -24,9 +24,8 @@ public class Dialog : MonoBehaviour
 		var rotX = transform.eulerAngles.x;
 		if (rotX > 180)
 		{
-			rotX -= 360; // Normalize to -180 to 180 range
+			rotX -= 360;
 		}
-		// Clamp the X rotation to a range of -20 to 20 degrees
 
 		var clampX = Mathf.Clamp(rotX, -20, 20);
 
@@ -44,22 +43,6 @@ public class Dialog : MonoBehaviour
 		if (isActiveAndEnabled && IsSeen() && _lastCharDisplayed < _textSO.Text.Length)
 		{
 			_text.text += _textSO.Text[_lastCharDisplayed++];
-
-            if (_text.isTextOverflowing)
-            {
-				//remove the first row
-				var lines = _text.text.Split('\n');
-				if (lines.Length > 1)
-				{
-					_text.text = string.Join("\n", lines.Skip(1));
-					//_lastCharDisplayed -= lines[0].Length + 1; // +1 for the newline character
-				}
-				else
-				{
-					_text.text = ""; // If only one line, clear it
-					//_lastCharDisplayed = 0;
-				}
-			}
 		}
 	}
 }
