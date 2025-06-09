@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d39f3ba3e6488454798ff647d1d24d5f, type: 3}
   m_Name: Prometeus Text
   m_EditorClassIdentifier: 
-  Text: "\"Lorem ipsum dolor sit amet, \nconsectetur adipiscing elit, \nsed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. \nUt enim ad minim veniam,\nquis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, \nsunt
-    in culpa qui officia deserunt mollit anim id est laborum.\""
+  Text: "Ever since I was born, I knew I was destined to create something extraordinary.
+    My name means \u201Cthe one who thinks first,\u201D and I am the titan blessed
+    with the greatest intellect and creativity Olympus has ever known. I didn\u2019t
+    yet know what awaited me, but one day, I had an idea that would change the course
+    of my life forever.\nWith clay from the earth and water from the rivers, I shaped
+    mankind in the image of the gods. Fragile, yet full of potential. They needed
+    a spark, a beginning. And so, I gave them form, and awaited their awakening."

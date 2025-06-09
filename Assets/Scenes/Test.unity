@@ -441,6 +441,7 @@ GameObject:
   - component: {fileID: 856336322}
   - component: {fileID: 856336321}
   - component: {fileID: 856336326}
+  - component: {fileID: 856336327}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -615,7 +616,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BackGroundColor: {r: 0.8443396, g: 0.94398874, b: 1, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -637,7 +638,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.1
-  far clip plane: 20
+  far clip plane: 150
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -700,6 +701,23 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &856336327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856336319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b15f82cc229284894964d2d30806969d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HumanSegmentationStencilMode: 0
+  m_HumanSegmentationDepthMode: 0
+  m_EnvironmentDepthMode: 1
+  m_EnvironmentDepthTemporalSmoothing: 1
+  m_OcclusionPreferenceMode: 0
 --- !u!1 &1030994844
 GameObject:
   m_ObjectHideFlags: 0
@@ -909,26 +927,26 @@ MonoBehaviour:
     ModelPrefab: {fileID: 2216644595672838448, guid: bdb4a351796d02d48a76b94d79d1a56a, type: 3}
     TextSO: {fileID: 11400000, guid: 28bf01b732941744bafcdcea073da777, type: 2}
   - Name: 2_PrometheusDeceit
-    ModelPrefab: {fileID: 2216644595672838448, guid: bdb4a351796d02d48a76b94d79d1a56a, type: 3}
-    TextSO: {fileID: 11400000, guid: 28bf01b732941744bafcdcea073da777, type: 2}
+    ModelPrefab: {fileID: 769272985193773450, guid: ca04eecc5092d441c81b739a3d82dbe1, type: 3}
+    TextSO: {fileID: 11400000, guid: aed37a20ec3514fb6bb3f117f3e866a2, type: 2}
   - Name: 3_PrometheusStealFire
-    ModelPrefab: {fileID: 2216644595672838448, guid: bdb4a351796d02d48a76b94d79d1a56a, type: 3}
-    TextSO: {fileID: 11400000, guid: 28bf01b732941744bafcdcea073da777, type: 2}
+    ModelPrefab: {fileID: 82821703791874836, guid: 33e0dafec0a6444c2ada1c53041f2485, type: 3}
+    TextSO: {fileID: 11400000, guid: 5feadb3979763413f98b0e10752ca6a8, type: 2}
   - Name: 4_FireOfPrometheus
-    ModelPrefab: {fileID: 2216644595672838448, guid: bdb4a351796d02d48a76b94d79d1a56a, type: 3}
-    TextSO: {fileID: 11400000, guid: 28bf01b732941744bafcdcea073da777, type: 2}
+    ModelPrefab: {fileID: 3070326372525162390, guid: aae45016c7bbe400383894041b67ade5, type: 3}
+    TextSO: {fileID: 11400000, guid: 577a187ad38624607b0f852694a086f2, type: 2}
   - Name: 5_PandoraCreation
-    ModelPrefab: {fileID: 2216644595672838448, guid: bdb4a351796d02d48a76b94d79d1a56a, type: 3}
-    TextSO: {fileID: 11400000, guid: 28bf01b732941744bafcdcea073da777, type: 2}
+    ModelPrefab: {fileID: 3037035885849811823, guid: 98fda87dd8e2f421eb40ec6aaa3d674e, type: 3}
+    TextSO: {fileID: 11400000, guid: d63f52d329e534656879b477364e39a7, type: 2}
   - Name: 6_PrometheusChained
-    ModelPrefab: {fileID: 2216644595672838448, guid: bdb4a351796d02d48a76b94d79d1a56a, type: 3}
-    TextSO: {fileID: 11400000, guid: 28bf01b732941744bafcdcea073da777, type: 2}
+    ModelPrefab: {fileID: 8551513465991344628, guid: a224eeef97d9f45d1862aa7cc5a1e94e, type: 3}
+    TextSO: {fileID: 11400000, guid: 6f5826a2fc81c4639b8db6d251c9387d, type: 2}
   - Name: 7_PrometheusPunishment
-    ModelPrefab: {fileID: 2216644595672838448, guid: bdb4a351796d02d48a76b94d79d1a56a, type: 3}
-    TextSO: {fileID: 11400000, guid: 28bf01b732941744bafcdcea073da777, type: 2}
+    ModelPrefab: {fileID: 2969132346347441438, guid: f383ce980d166462e90a9292d1042b22, type: 3}
+    TextSO: {fileID: 11400000, guid: 467dd01aecaee424ca7263c3309737e7, type: 2}
   - Name: 8_PrometheusFree
-    ModelPrefab: {fileID: 2216644595672838448, guid: bdb4a351796d02d48a76b94d79d1a56a, type: 3}
-    TextSO: {fileID: 11400000, guid: 28bf01b732941744bafcdcea073da777, type: 2}
+    ModelPrefab: {fileID: 1660578883759948852, guid: 746913d1ab474465bb75056b5507bdaa, type: 3}
+    TextSO: {fileID: 11400000, guid: ec1a72dde242d42d8bc8f28a4015e1e9, type: 2}
 --- !u!1 &1175214670
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d39f3ba3e6488454798ff647d1d24d5f, type: 3}
+  m_Name: Prometheus2 Text
+  m_EditorClassIdentifier: 
+  Text: "Today, you humans use me as a metaphor for love and devotion. I am one of
+    the closest figures you have to a savior. Writers, musicians, poets, painters,
+    few have refrained from speaking of my love for humanity, a love for which I
+    was punished. Some prefer to use me as a warning: \u201CThose who draw too close
+    to the fire will be burned.\u201D But isn\u2019t burning exactly what a soul
+    must do to become whole? To burn with passion, with feeling, to burn while revealing
+    the deepest truths\u2026\nEven Zeus, in the end, sought to understand my counsel,
+    and to this day, the fire burns within each of you, just as it does within me."

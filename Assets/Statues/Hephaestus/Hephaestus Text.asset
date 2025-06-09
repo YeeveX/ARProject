@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d39f3ba3e6488454798ff647d1d24d5f, type: 3}
+  m_Name: Hephaestus Text
+  m_EditorClassIdentifier: 
+  Text: "The wrath of Zeus had become unstoppable. Under his command, I was tasked
+    with forging a creature both mesmerizing and terrifying: Pandora, who would come
+    to be known as \u201Cthe first woman.\u201D There was a spark in her eyes, she
+    was beautiful, intelligent, radiant, and insatiably curious. Each god bestowed
+    upon her a gift, and as I shaped her, I found myself almost falling in love."

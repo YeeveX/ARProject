@@ -85,7 +85,7 @@ MonoBehaviour:
       m_GuidHigh: 10817828750373176904
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: 7_PrometheusPunishment
+    m_Name: 8_PrometheusFree
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 5000752680126208996
@@ -95,5 +95,5 @@ MonoBehaviour:
       m_GuidHigh: 3660123950127788729
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: 8_PrometheusFree
+    m_Name: 7_PrometheusPunishment
     m_Texture: {fileID: 0}

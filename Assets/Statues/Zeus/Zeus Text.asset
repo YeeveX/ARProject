@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d39f3ba3e6488454798ff647d1d24d5f, type: 3}
+  m_Name: Zeus Text
+  m_EditorClassIdentifier: 
+  Text: "I, Zeus, father of all the gods, have always harbored suspicion toward anyone
+    who dared come near me. And yet, despite my boundless caution, I was deceived\u2014no
+    less, by my very own cousin: Prometheus, one of the most wretched Titans ever
+    to walk the earth.\nHe dared to trick me, offering bones dressed in fat while
+    hiding the true meat in refuse. I saw through it, of course, yet I accepted the
+    false gift. That day, I resolved to withhold fire from humankind. Let them suffer
+    his cleverness."

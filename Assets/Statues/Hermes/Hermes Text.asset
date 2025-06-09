@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d39f3ba3e6488454798ff647d1d24d5f, type: 3}
+  m_Name: Hermes Text
+  m_EditorClassIdentifier: 
+  Text: "I never liked that Prometheus. As a lesser god, a second-rate deity, if
+    you will, I could hardly afford to voice my opinions about a Titan. But that
+    Prometheus would defy the command of his own cousin Zeus and steal the fire nonetheless\u2026
+    that, I certainly did not expect.\nUnder cloak of darkness, Prometheus stole
+    fire from the forge of Hephaestus. A dangerous gift, a divine flame now in mortal
+    hands. He knew the risk, yet still he defied Olympus."

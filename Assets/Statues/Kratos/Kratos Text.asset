@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d39f3ba3e6488454798ff647d1d24d5f, type: 3}
+  m_Name: Kratos Text
+  m_EditorClassIdentifier: 
+  Text: "Zeus\u2019s fury was far from spent, Prometheus still had to be punished.\nHe
+    would not bow, so we bound him. To stone, to silence, to eternity. Each day,
+    the eagle feasted on his flesh. Each night, he healed. He would have learnt obedience
+    through agony\u2026 If only that troublemaker Heracles hadn\u2019t ruined the
+    plan of the father of the gods."
