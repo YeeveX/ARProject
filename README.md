@@ -4,7 +4,15 @@
 
 ## Project Idea
 
-Our museum is designed as an interactive story centered around the myth of Prometheus, where each of the 8 paintings progressively tells the story of the myth, displaying a statue which narrates the events.
+Our museum is designed as an interactive story centered around the myth of Prometheus, where each of the 8 paintings progressively tells the story of the myth, displaying a statue which is a character that narrates the event:
+1. Prometheus Creates Man (Prometheus young)
+2. The Deceit of the Sacrifice (Zeus)
+3. The Theft of Fire (Hermes)
+4. The Gift of Fire to Humanity (Human)
+5. The Creation of Pandora (Hephaestus)
+6. Prometheus Chained and Tormented (Kratos)
+7. The Liberation by Heracles (Heracles)
+8. The Wisdom of Prometheus (Prometheus old)
 
 ## Implementation choices
 
@@ -12,7 +20,7 @@ Our museum is designed as an interactive story centered around the myth of Prome
 
 We chose to develop the project using the XR Simulation environment because it greatly simplifies testing since we have different mobile operating systems that would have required dealing with different build targets. 
 
-This, however, meant that we had to build a proper virtual environment to simulate a plausible museum (we went for a circular ancient style kiosk).
+This, however, meant that we had to build a proper virtual environment to simulate a plausible museum (we went for a circular ancient style greek temple).
 
 We only really used two packages besides the default ones:
 - **AR Foundation** for the api.
@@ -45,8 +53,14 @@ It is responsible of keeping the dialog face the direction of the user. The text
 
 5) **Statue Text SO**
 
-It's a `Scriptable Sbject` (hence the SO in the name) which is a special class in Unity that can be used to store data in assets within the project's folder. It is very useful to define persistent data, in this case the statues' textl, which can be conveniently assigned from the editor in the `MuseumImageTrackes`'s list of `NameModelAssoc`.
+It's a `Scriptable Object` (hence the SO in the name) which is a special class in Unity that can be used to store data in assets within the project's folder. It is very useful to define persistent data, in this case the statues' textl, which can be conveniently assigned from the editor in the `MuseumImageTrackes`'s list of `NameModelAssoc`.
 
 ![image](https://github.com/user-attachments/assets/8f3f01a5-f761-4723-8a93-4c663504587f)
 
 ![image](https://github.com/user-attachments/assets/87fa18b5-2b27-4a3b-ba77-57a4dab7a630)
+
+### User Instructions
+
+The simulation starts facing the direction of the first painting (with a "Start Here" text too), you will see the floor detection debug area in orange progressively expanding by looking in "new" parts of the temple.
+To "activate" a painting you have to walk near it, look at it, then move and look to its right so that the statue spawns once the floor is detected.
+In order to make the text progressively appear you'll have to look to the dialog, if you look away, it will stop spawning.
